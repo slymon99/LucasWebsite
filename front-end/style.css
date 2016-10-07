@@ -1,7 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700';
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color:#FAFAFA;
+}
+
+
+
 .navbar-brand>img{
     height:100%;
     width:auto;
 }
+
+.container{
+    background-color: #F5F5F5;
+}
+
 
 .title-splash{
     text-align: center;
@@ -9,8 +26,4 @@
 
 .title-splash h2{
     margin-bottom: 15px;
-}
-
-div{
-    border: 1px solid black;
 }
