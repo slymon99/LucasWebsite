@@ -1,0 +1,14 @@
+.login-form{
+    background: #dfdfdf;
+    padding:10px;
+}
+
+.login-form div{
+    margin-bottom: 20px;
+}
+
+.address-holder div{
+    padding-left:0;
+    padding-right:0;
+}
+

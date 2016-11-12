@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="loginform.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <nav class="navbar navbar-default">
+
+
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#mobile-dropdown-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#"><img src="logo.png"> </a>
+            </div>
+
+            <div class="navbar-collapse collapse" id="mobile-dropdown-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+
+
+    <div class="row">
+        <div class="login-form col-md-8 col-md-offset-2">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="pass-name" placeholder="Pass Name: (Daily Pass)">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="location"
+                           placeholder="Locations to redeem:">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="price"
+                           placeholder="Price: (minimum of X dollars)">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="daily-max"
+                           placeholder="Is there a maximum to be sold in a day?">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="redemption-email"
+                           placeholder="Redemption Email (can be the same as the one from the previous page for problems or with redemption)">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="redemption-phone"
+                           placeholder="Redemption Phone (The one people people call you on for business or problems with redemption)">
+                </div>
+
+                <h5>
+                    By checking the following Box I certify the Sale and redemption of the pass I have created.
+                </h5>
+                <h5>
+                    By Checking the following Box I certify that I agree to the Liability agrreement located here to cover the use of Gym LFYE patrons.
+                </h5>
+                <button type="button" class="btn btn-primary btn-lg col-xs-offset-10">Next Page</button>
+
+            </form>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
