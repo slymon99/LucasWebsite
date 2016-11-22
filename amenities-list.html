@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="loginform.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <nav class="navbar navbar-default">
+
+
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#mobile-dropdown-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#"><img src="logo.png"> </a>
+            </div>
+
+            <div class="navbar-collapse collapse" id="mobile-dropdown-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="sgn-in.html">Sign In</a></li>
+                    <li><a href="profile-info.html">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+
+
+    <div class="row">
+        <div class="login-form col-md-8 col-md-offset-2">
+            <form>
+
+                <div class="address-holder">
+                    <div class="form-group col-md-3">
+                        <script type="text/javascript">
+                            var locker_clicks = 0;
+                            function onClick() {
+                                locker_clicks += 1;
+                                document.getElementById("locker-clicks").innerHTML = locker_clicks;
+                            };
+                        </script>
+                        <button type="button" onClick="onClick()" >locker_rooms</button>
+                        <p>Locker Rooms: <a id="locker_clicks">0</a></p>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <script type="text/javascript">
+                            var clicks = 0;
+                            function onClick() {
+                                clicks += 1;
+                                document.getElementById("clicks").innerHTML = clicks;
+                            };
+                        </script>
+                        <button type="button" onClick="onClick()" >storage_cubbies</button>
+                        <p>Storage Cubbies): <a id="clicks">0</a></p>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <script type="text/javascript">
+                            var clicks = 0;
+                            function onClick() {
+                                clicks += 1;
+                                document.getElementById("clicks").innerHTML = clicks;
+                            };
+                        </script>
+                        <button type="button" onClick="onClick()" >showers</button>
+                        <p>Showers: <a id="clicks">0</a></p>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <script type="text/javascript">
+                            var clicks = 0;
+                            function onClick() {
+                                clicks += 1;
+                                document.getElementById("clicks").innerHTML = clicks;
+                            };
+                        </script>
+                        <button type="button" onClick="onClick()" >wi-fi</button>
+                        <p>Wi-Fi: <a id="clicks">0</a></p>
+                    </div>
+                </div>
+
+                <div class="address-holder">
+                    <div class="form-group col-md-3">
+                        <script type="text/javascript">
+                            var clicks = 0;
+                            function onClick() {
+                                clicks += 1;
+                                document.getElementById("clicks").innerHTML = clicks;
+                            };
+                        </script>
+                        <button type="button" onClick="onClick()" >towels</button>
+                        <p>Towels: <a id="clicks">0</a></p>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <script type="text/javascript">
+                            var clicks = 0;
+                            function onClick() {
+                                clicks += 1;
+                                document.getElementById("clicks").innerHTML = clicks;
+                            };
+                        </script>
+                        <button type="button" onClick="onClick()" >water_bottles</button>
+                        <p>Water bottles): <a id="clicks">0</a></p>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <script type="text/javascript">
+                            var clicks = 0;
+                            function onClick() {
+                                clicks += 1;
+                                document.getElementById("clicks").innerHTML = clicks;
+                            };
+                        </script>
+                        <button type="button" onClick="onClick()" >parking</button>
+                        <p>Parking: <a id="clicks">0</a></p>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <script type="text/javascript">
+                            var clicks = 0;
+                            function onClick() {
+                                clicks += 1;
+                                document.getElementById("clicks").innerHTML = clicks;
+                            };
+                        </script>
+                        <button type="button" onClick="onClick()" >food</button>
+                        <p>Food: <a id="clicks">0</a></p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="business-email"
+                           placeholder="Types Of Equipment">
+                </div>
+
+
+
+                            <div class="equipment-types">
+                                <div class="form-group col-md-3">
+                                    <script type="text/javascript">
+                                        var locker_clicks = 0;
+                                        function onClick() {
+                                            locker_clicks += 1;
+                                            document.getElementById("locker-clicks").innerHTML = locker_clicks;
+                                        };
+                                    </script>
+                                    <button type="button" onClick="onClick()" >treadmills</button>
+                                    <p>Treadmills: <a id="locker_clicks">0</a></p>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <script type="text/javascript">
+                                        var clicks = 0;
+                                        function onClick() {
+                                            clicks += 1;
+                                            document.getElementById("clicks").innerHTML = clicks;
+                                        };
+                                    </script>
+                                    <button type="button" onClick="onClick()" >free_weights</button>
+                                    <p>Free Weights: <a id="clicks">0</a></p>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <script type="text/javascript">
+                                        var clicks = 0;
+                                        function onClick() {
+                                            clicks += 1;
+                                            document.getElementById("clicks").innerHTML = clicks;
+                                        };
+                                    </script>
+                                    <button type="button" onClick="onClick()" >showers</button>
+                                    <p>Showers: <a id="clicks">0</a></p>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <script type="text/javascript">
+                                        var clicks = 0;
+                                        function onClick() {
+                                            clicks += 1;
+                                            document.getElementById("clicks").innerHTML = clicks;
+                                        };
+                                    </script>
+                                    <button type="button" onClick="onClick()" >stretching_stations</button>
+                                    <p>Stretching Stations: <a id="clicks">0</a></p>
+                                </div>
+                            </div>
+
+                            <div class="address-holder">
+                                <div class="form-group col-md-3">
+                                    <script type="text/javascript">
+                                        var clicks = 0;
+                                        function onClick() {
+                                            clicks += 1;
+                                            document.getElementById("clicks").innerHTML = clicks;
+                                        };
+                                    </script>
+                                    <button type="button" onClick="onClick()" >open_studio</button>
+                                    <p>Open Studio: <a id="clicks">0</a></p>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <script type="text/javascript">
+                                        var clicks = 0;
+                                        function onClick() {
+                                            clicks += 1;
+                                            document.getElementById("clicks").innerHTML = clicks;
+                                        };
+                                    </script>
+                                    <button type="button" onClick="onClick()" >Racquet</button>
+                                    <p>Racquet: <a id="clicks">0</a></p>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <script type="text/javascript">
+                                        var clicks = 0;
+                                        function onClick() {
+                                            clicks += 1;
+                                            document.getElementById("clicks").innerHTML = clicks;
+                                        };
+                                    </script>
+                                    <button type="button" onClick="onClick()" >Basketball</button>
+                                    <p>Basketball: <a id="clicks">0</a></p>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <script type="text/javascript">
+                                        var clicks = 0;
+                                        function onClick() {
+                                            clicks += 1;
+                                            document.getElementById("clicks").innerHTML = clicks;
+                                        };
+                                    </script>
+                                    <button type="button" onClick="onClick()" >soccer</button>
+                                    <p>Soccer: <a id="clicks">0</a></p>
+                                </div>
+                            </div>
+            </form>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
